@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  padding: 30px;
+  background-color: rgb(40, 40, 255);
+  color: white;
+  text-align: center;
+}
+
+.footer{
+  padding: 10px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.messagesListBox{
+}
+
+.messageItem{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: blue;
+  margin: 3px;
+  color: white;
+  width: fit-content;
+}
+.messagesContainer{
+background-color: rgb(236, 236, 236);
+padding: 10px;
+border-radius: 10px;
+}
