@@ -12,9 +12,11 @@ code {
     monospace;
 }
 
+
+
 .header{
   padding: 30px;
-  background-color: rgb(40, 40, 255);
+  background-color: rgb(42, 95, 255);
   color: white;
   text-align: center;
 }
@@ -26,19 +28,44 @@ code {
   text-align: center;
 }
 
+.messagesListBox > div{
+  display: flex;
+  flex-direction: column;
+  max-height: 400px;
+  padding: 10px;
+
+}
+
 .messagesListBox{
+  background-color: rgb(236, 236, 236);
+  border-radius: 10px;
+  width: 50%;
+  margin: 30px auto 0 auto;
+  max-height: 400px;
+  overflow: hidden;
+ 
 }
 
 .messageItem{
   padding: 5px;
   border-radius: 5px;
   background-color: blue;
+  display: inline-block;
   margin: 3px;
   color: white;
   width: fit-content;
 }
-.messagesContainer{
-background-color: rgb(236, 236, 236);
-padding: 10px;
-border-radius: 10px;
+
+.messageItem.right{
+  margin-right: 0;
+  margin-left: auto;
+  background-color:rgb(108, 189, 255);
+  border: 1px solid blue;
+  color: #333;
+}
+
+
+
+.pageContent{
+  min-height: 60vh;
 }
